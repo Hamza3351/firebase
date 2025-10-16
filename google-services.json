@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "473884417741",
+    "project_id": "bijli-buddy-bb308",
+    "storage_bucket": "bijli-buddy-bb308.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473884417741:android:3cdd77adc00bb0ede31384",
+        "android_client_info": {
+          "package_name": "com.bijli_buddy.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473884417741-os4bnqq90h7k46r7qneah14luudqj1us.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bijli_buddy.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "473884417741-d0loq2hurim0kep56k2q4k7ctbikrfu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXoelg-3c01w1tPQvLAJmXibAJwnPq10I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473884417741-d0loq2hurim0kep56k2q4k7ctbikrfu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
