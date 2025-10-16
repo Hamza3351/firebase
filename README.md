@@ -11,7 +11,7 @@
   `npx expo prebuild`  
 
 ### Run & Development
-- Run on Android:  
+- Run on Android Emulator **OR** Link your mobile device via the QR code for expo go app when this command is successfully completed:  
   `npx expo run android` 
 
 ### Build for Release
