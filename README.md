@@ -1,12 +1,25 @@
-# Firebase + React Native Google Sign-In Demo
+# Firebase + React Native Google Sign-In
 
-This is a quick demo repo showing how to set up Google Sign-In with Firebase Auth in a React Native app. It's super basic—just handles signing in, showing the user, and signing out.
+## Setup
 
-## What It Does
-- Renders a Google Sign-In button when not logged in.
-- After sign-in, displays a welcome message with the user's email.
-- Sign-out button that revokes Google access to avoid auto-selecting the cached account next time.
+### Dependencies
+- Install dependencies:  
+  `npx expo install` 
 
-## Quick Setup
+### Prebuild & Build
+- Generate native code (for bare/custom workflow):  
+  `npx expo prebuild`  
 
-Test on a real device for Google Play Services to work properly. If the account picker doesn't show, check the sign-out logs.
+### Run & Development
+- Run on Android:  
+  `npx expo run android` 
+
+### Build for Release
+- Go inside android directory:  
+  `cd android`
+  
+- Build:  
+  `./gradlew assembleRelease`
+
+- The APK will be generated at:
+  `android/app/build/outputs/apk/release/app-release.apk`
